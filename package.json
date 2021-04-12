@@ -1,0 +1,24 @@
+{
+  "name": "generic-cors-override",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "local-cors-proxy": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lcp --proxyURL ${PROXY_URL} --port ${PORT}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikatun/generic-cors-override.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ikatun/generic-cors-override/issues"
+  },
+  "homepage": "https://github.com/ikatun/generic-cors-override#readme"
+}
