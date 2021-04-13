@@ -10,8 +10,7 @@ export const startProxy = (port = process.env.PORT ?? '8010', credentials = fals
   proxy.options('*', cors({ credentials: credentials, origin: origin }));
 
   proxy.use('/', function (req, res) {
-    const { path } = req;
-    const url = path.slice(1);
+    const url = req.url.slice(1);
     try {
       console.log(chalk.green('Request Proxied -> ' + url));
     } catch (e) {}
