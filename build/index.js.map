@@ -1,1 +1,0 @@
-{"version":3,"file":"index.js","sourceRoot":"","sources":["../src/index.ts"],"names":[],"mappings":";;AAAA,uCAAqC;AACrC,4BAA0B;AAE1B,qCAAsC;AAEtC,mBAAU,EAAE,CAAC","sourcesContent":["import 'source-map-support/register';\nimport 'reflect-metadata';\n\nimport { startProxy } from './server';\n\nstartProxy();\n"]}
