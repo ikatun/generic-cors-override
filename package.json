@@ -8,7 +8,8 @@
     "express": "^4.17.1",
     "request": "^2.88.2",
     "source-map-support": "^0.5.19",
-    "reflect-metadata": "^0.1.13"
+    "reflect-metadata": "^0.1.13",
+    "cors": "^2.8.5"
   },
   "devDependencies": {
     "@types/chalk": "^2.2.0",
@@ -17,7 +18,6 @@
     "@types/request": "^2.48.5",
     "@typescript-eslint/eslint-plugin": "^4.22.0",
     "@typescript-eslint/parser": "^4.22.0",
-    "cors": "^2.8.5",
     "eslint": "^7.24.0",
     "eslint-config-prettier": "^8.2.0",
     "eslint-plugin-prettier": "^3.3.1",
